@@ -26,7 +26,7 @@ import {
 } from "@/components/ui/form";
 
 import { registerSchema } from "../schemas";
-import { useRegister } from "../api/useRegister";
+import { useRegister } from "../api/use-register";
 
 const SignUpCard = () => {
   const { mutate } = useRegister();

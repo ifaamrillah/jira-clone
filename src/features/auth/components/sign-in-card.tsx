@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/form";
 
 import { loginSchema } from "../schemas";
-import { useLogin } from "../api/useLogin";
+import { useLogin } from "../api/use-login";
 
 const SignInCard = () => {
   const { mutate } = useLogin();
